@@ -1,0 +1,15 @@
+package com.usal;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Gson gson = new Gson();
+        Persona p = new Persona(Victoria, Martin);
+        String personJSON = gson.toJson(p);
+        System.out.println(personJSON);
+
+
+
+
+    }
+}
