@@ -1,17 +1,13 @@
 package com.usal;
-
+/**
+ * ESTA CLASE ES MUY IMPORTANTE
+ */
 public class Persona {
     
     String nombre;
     String apellido;
 
-    /**
-     * 
-     * Esta clase es muy importante
-     * 
-     * @param nombre
-     * @param apellido
-     */
+
     public Persona(String nombre, String apellido) {
         this.nombre = nombre;
         this.apellido = apellido;
